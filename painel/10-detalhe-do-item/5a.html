@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — 5a</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+@keyframes skPulse{0%,100%{opacity:1}50%{opacity:.45}}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 'Archivo',sans-serif;color:rgba(0,0,0,.6)}
+.dv-card{max-width:100%;background:#fff;border:1px solid rgba(0,0,0,.14);overflow:hidden}
+.dv-opt:target .dv-oid{background:#1560ec;color:#fff}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+.dv-card a{text-decoration:none}
+:root{--color-accent:#1560ec;--color-accent-100:oklch(.95 .03 258);--color-accent-200:oklch(.9 .06 258);--color-accent-300:oklch(.82 .1 258);--color-accent-400:oklch(.68 .16 258);--color-accent-500:#1560ec;--color-accent-600:oklch(.5 .19 258);--color-accent-700:#0b3fa1;--color-accent-800:oklch(.32 .13 258);--color-accent-900:oklch(.25 .1 258)}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="5a"><div class="dv-olabel"><a class="dv-oid" href="#5a">5a</a>Detalhe do item — Admin (Voltar Etapa é da Estação; aqui: alterar step com motivo + reportar problema)</div>
+<div class="dv-card" style="width:1360px;background:var(--color-bg,#f3f2f2)">
+  <div style="display:flex;align-items:center;gap:22px;padding:12px 24px;background:#201e1d;color:#f3f2f2">
+    <div style="display:flex;align-items:center;gap:10px"><img src="../uploads/zataco-wordmark-white.svg" style="height:14px;display:block" alt="ZATACO"></div>
+    <span style="font:500 12px 'Archivo';color:#a5a09b">Pedidos / <a style="color:#a5a09b">Pedido BRC-100003</a> / <b style="color:#f3f2f2">Item BRC-100003-A</b></span>
+    <span style="margin-left:auto;font:600 13px 'Archivo'">Marina A. · <span style="color:#a5a09b">Administrador</span></span>
+  </div>
+  <div style="padding:24px 28px;display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:20px">
+      <div style="display:flex;gap:18px">
+        <div style="width:96px;height:96px;background:#e4e2df;display:flex;align-items:center;justify-content:center;font:600 10px 'Archivo';color:#8a8580;flex:none;text-align:center">FOTO<br>ILUSTRATIVA</div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="display:flex;align-items:center;gap:12px"><span style="font:700 26px 'Archivo';color:#201e1d">Item <span class="mono">BRC-100003-A</span></span></div>
+          <div style="font:500 14px 'Archivo';color:#6b6764">Boné Trucker bordado · 120 peças · Linha Bonés · Pedido <a style="font-weight:600">BRC-100003</a> · Prefeitura de Caicó · prazo <b style="color:#201e1d">14/08/2026</b></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="tag tag-accent">Em produção</span><span class="tag" style="background:oklch(.94 .06 85);color:oklch(.38 .09 70)">Em retrabalho — Linha rompida</span></div>
+          
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;position:relative"><button class="btn btn-secondary" style="white-space:nowrap">Alterar step manualmente</button><div style="position:relative"><button class="btn btn-secondary" style="white-space:nowrap">Mais ações ▾</button><div style="position:absolute;top:calc(100% + 4px);right:0;width:240px;background:#fff;border:1px solid rgba(0,0,0,.18);box-shadow:var(--shadow-md,0 4px 14px rgba(0,0,0,.12));z-index:5"><div style="display:flex;flex-direction:column;font:600 13px 'Archivo';color:#201e1d;text-align:left"><span style="padding:10px 16px">Reportar problema</span><a href="#4y" style="padding:10px 16px;border-top:1px solid rgba(0,0,0,.08);text-decoration:none;color:#201e1d">Cancelar item <span style="font:500 11px 'Archivo';color:#6b6764">recalcula o preço</span></a><span style="padding:10px 16px;border-top:1px solid rgba(0,0,0,.08)">Ver histórico completo</span></div></div></div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px">
+      <div style="display:flex;flex-direction:column;gap:16px"><div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+        <div style="padding:14px 20px;border-bottom:2px solid #201e1d;font:700 14px 'Archivo';color:#201e1d">Rastreamento por etapa — <span style="color:#6b6764">travessia vs média da linha</span></div>
+        <div style="display:flex;flex-direction:column">
+          <div style="display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid rgba(0,0,0,.08)"><span style="width:26px;height:26px;background:#2fb35c;color:#fff;display:flex;align-items:center;justify-content:center;font:700 14px 'Archivo';flex:none">✓</span><div style="flex:1"><b style="font:700 14px 'Archivo';color:#201e1d">Corte</b><div style="font:500 12px 'Archivo';color:#6b6764">Mesa de Corte · bipado 03/08 09:12 · travessia 42 min · <span style="color:#6b6764">média da linha: 38 min</span></div></div><span class="tag" style="background:oklch(.93 .05 150);color:oklch(.32 .09 150)">Completo</span></div>
+          <div style="display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid rgba(0,0,0,.08);background:oklch(.97 .02 255);border-left:3px solid #1560ec"><span style="width:26px;height:26px;background:#1560ec;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px 'Archivo';flex:none">2</span><div style="flex:1"><b style="font:700 14px 'Archivo';color:#201e1d">Bordado</b><div style="font:500 12px 'Archivo';color:#6b6764">Mesa Bordado · na fila há <span style="color:#b57e1e;font-weight:600">3 h</span> · <span style="color:#6b6764">média: 1 h 40</span> · 1 retrabalho</div></div><span class="tag tag-accent">Etapa atual</span></div>
+          <div style="display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid rgba(0,0,0,.08);color:#a5a09b"><span style="width:26px;height:26px;border:1px solid #d7d3cf;display:flex;align-items:center;justify-content:center;font:700 13px 'Archivo';flex:none">—</span><div style="flex:1"><b style="font:700 14px 'Archivo'">Pintura</b><div style="font:500 12px 'Archivo'">pulada — desmarcada na criação do pedido</div></div><span class="tag tag-outline">Pulada</span></div>
+          <div style="display:flex;align-items:center;gap:16px;padding:14px 20px"><span style="width:26px;height:26px;border:1px solid #a5a09b;color:#6b6764;display:flex;align-items:center;justify-content:center;font:700 13px 'Archivo';flex:none">3</span><div style="flex:1"><b style="font:700 14px 'Archivo';color:#201e1d">Embalagem</b><div style="font:500 12px 'Archivo';color:#6b6764">Bancada de Embalagem · consolida o pedido</div></div><span class="tag tag-neutral">Pendente</span></div>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.12);margin-top:0"><div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Problemas do item</span><span class="tag" style="background:oklch(.94 .06 85);color:oklch(.38 .09 70)">1 aberta</span></div>
+        <div style="display:flex;flex-direction:column;font:500 12.5px 'Archivo';color:#201e1d">
+          <div style="display:flex;align-items:center;gap:12px;padding:11px 20px;border-bottom:1px solid rgba(0,0,0,.08)"><span class="tag" style="background:oklch(.94 .06 85);color:oklch(.38 .09 70);flex:none">Em retrabalho — Linha rompida</span><span>Motivo: <b>Linha rompida</b> · Origem: Estação Revisão · hoje 10:47</span><span style="margin-left:auto;display:flex;gap:14px;flex:none"><a style="font:600 12px 'Archivo'" href="#4z">Ver detalhes</a></span></div>
+          <div style="display:flex;align-items:center;gap:12px;padding:11px 20px;color:#6b6764"><span class="tag" style="background:oklch(.93 .05 150);color:oklch(.32 .09 150);flex:none">Resolvida</span><span>Etiqueta rasgada · Acabamentos · 01/08 — reimpressa pela Paula D.</span><span style="margin-left:auto;flex:none"><a style="font:600 12px 'Archivo'" href="#4z">Ver detalhes</a></span></div>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Progresso</span></div><div style="padding:16px 20px;display:flex;align-items:center;gap:22px"><div style="flex:1;height:14px;background:#e9e7e4"><div style="height:14px;background:#1560ec;width:33%"></div></div><span style="font:600 13px 'Archivo';color:#201e1d;white-space:nowrap">1 de 3 etapas concluídas</span></div><div style="padding:0 20px 14px;font:500 12px 'Archivo';color:#6b6764">Pintura pulada não conta</div></div></div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+          <div style="padding:12px 20px;border-bottom:2px solid #201e1d;font:700 13px 'Archivo';color:#201e1d">Financeiro do item</div>
+          <div style="padding:14px 20px;display:grid;grid-template-columns:auto 1fr;gap:7px 16px;font:500 13px 'Archivo';color:#201e1d"><span style="color:#6b6764">Preço unitário</span><span class="mono">R$ 45,90</span><span style="color:#6b6764">Quantidade</span><span class="mono">120 peças</span><span style="color:#6b6764">Subtotal do item</span><span class="mono" style="font-weight:700">R$ 5.508,00</span></div>
+          <div style="padding:0 20px 12px;font:500 11.5px 'Archivo';color:#6b6764">Valor do pedido inteiro em <a style="font-weight:600">Pedido BRC-100003 →</a></div>
+        </div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Arte</span><a style="font:600 12px 'Archivo'" href="#4m">Histórico de revisões (1) →</a></div>
+          <div style="padding:14px 20px;display:flex;gap:12px;align-items:center"><div style="width:52px;height:52px;background:#e4e2df;display:flex;align-items:center;justify-content:center;font:600 8px 'Archivo';color:#8a8580;flex:none">V1</div><div style="font:500 12.5px 'Archivo';color:#201e1d"><b>bone-prefeitura-v1.pdf</b><div style="color:#6b6764">aprovada em 28/07</div><div style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px"><button class="btn btn-secondary" style="padding:5px 10px;font-size:12px;white-space:nowrap">Ver arte final</button><span style="font:700 15px 'Archivo';color:#6b6764;letter-spacing:2px">⋮</span></div></div></div>
+        </div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Instruções de design</span></div><div style="padding:12px 20px;font:500 12.5px 'Archivo';color:#201e1d;line-height:1.6">"bordado nas laterais com nome da empresa<br>lado direito: telefone · lado esquerdo: e-mail"</div><div style="padding:0 20px 12px;font:500 11.5px 'Archivo';color:#a5a09b">Registradas pelo vendedor na criação do pedido</div></div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:12px 20px;border-bottom:2px solid #201e1d;font:700 13px 'Archivo';color:#201e1d">Referências do pedido (2)</div><div style="padding:4px 20px 0;display:flex;flex-direction:column"><div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="width:24px;height:24px;background:#f7f6f5;border:1px solid rgba(0,0,0,.1);display:flex;align-items:center;justify-content:center;font:700 8px 'Archivo';color:#6b6764;flex:none">AI</span><span style="font:600 12px 'Archivo';color:#201e1d">logo-prefeitura.ai</span><span style="font:500 11px 'Archivo';color:#6b6764">· 2,1 MB</span><a style="font:600 12px 'Archivo';margin-left:auto">Baixar</a></div><div style="display:flex;align-items:center;gap:10px;padding:8px 0"><span style="width:24px;height:24px;background:#f7f6f5;border:1px solid rgba(0,0,0,.1);display:flex;align-items:center;justify-content:center;font:700 8px 'Archivo';color:#6b6764;flex:none">PDF</span><span style="font:600 12px 'Archivo';color:#201e1d">manual-id-visual.pdf</span><span style="font:500 11px 'Archivo';color:#6b6764">· 8,4 MB</span><a style="font:600 12px 'Archivo';margin-left:auto">Baixar</a></div></div><div style="padding:6px 20px 12px;font:500 11.5px 'Archivo';color:#a5a09b">Anexadas pelo vendedor — auxiliam o design</div></div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Foto ilustrativa</span></div><div style="padding:14px 20px;display:flex;gap:12px;align-items:center"><div style="width:52px;height:52px;background:#e4e2df;display:flex;align-items:center;justify-content:center;font:600 8px 'Archivo';color:#8a8580;flex:none">FOTO</div><div style="font:500 12.5px 'Archivo';color:#201e1d"><b>foto-bone-trucker.jpg</b><div style="color:#6b6764">aparece no carrossel da Estação</div><div style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px"><button class="btn btn-secondary" style="padding:5px 10px;font-size:12px;white-space:nowrap">Ver foto</button><span style="font:700 15px 'Archivo';color:#6b6764;letter-spacing:2px">⋮</span></div></div></div></div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Etiqueta do item</span><a style="font:600 12px 'Archivo'">Reimprimir →</a></div>
+          <div style="padding:14px 20px;display:flex;align-items:center;gap:14px;font:500 13px 'Archivo';color:#201e1d"><span class="mono" style="font-weight:700;font-size:15px">BRC-100003-A</span><span style="color:#6b6764">impressa em 28/07 · reimpressa 1× (01/08, etiqueta rasgada)</span></div>
+          <div style="padding:0 20px 12px;font:500 11.5px 'Archivo';color:#6b6764">Código único do item, em folha única com a foto ilustrativa</div>
+          <div style="padding:10px 20px;border-top:1px solid rgba(0,0,0,.08)"><a style="font:600 12px 'Archivo';color:#a12008" title="Abre Reimpressões filtrada por este item">⚡ 1 solicitação pendente da Estação Revisão →</a></div>
+        </div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:12px 20px;border-bottom:2px solid #201e1d;font:700 13px 'Archivo';color:#201e1d">Consolidação na Embalagem</div><div style="padding:14px 20px;font:500 13px 'Archivo';color:#201e1d">Modo: <b>consolidação por pedido</b><div style="font:500 12px 'Archivo';color:#6b6764;margin-top:5px">Aguardando itens irmãos: <span class="mono" style="font-weight:600">BRC-100003-B</span> e <span class="mono" style="font-weight:600">BRC-100003-C</span>.</div></div></div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="display:flex;align-items:baseline;justify-content:space-between;padding:12px 20px;border-bottom:2px solid #201e1d"><span style="font:700 13px 'Archivo';color:#201e1d">Cliente</span></div><div style="padding:14px 20px;font:500 13px 'Archivo';color:#201e1d">Prefeitura de Caicó<div style="color:#6b6764;margin-top:3px">Sônia Medeiros · (84) 99871-2210</div><div style="display:flex;gap:14px;margin-top:8px"><a style="font:600 12px 'Archivo'">Ver cliente →</a></div></div></div>
+        <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+          <div style="padding:12px 20px;border-bottom:2px solid #201e1d;font:700 13px 'Archivo';color:#201e1d">Linha do tempo</div>
+          <div style="display:flex;flex-direction:column;font:500 12px 'Archivo';color:#6b6764">
+            <span style="padding:9px 20px;border-bottom:1px solid rgba(0,0,0,.08)"><b style="color:#201e1d">hoje 10:47</b> · voltou para Bordado — linha rompida (Estação Revisão)</span>
+            <span style="padding:9px 20px;border-bottom:1px solid rgba(0,0,0,.08)"><b style="color:#201e1d">03/08 09:12</b> · Corte concluído (Mesa de Corte)</span>
+            <span style="padding:9px 20px"><b style="color:#201e1d">28/07 15:20</b> · encaminhado à produção · etiqueta gerada</span>
+          </div>
+          <div style="padding:10px 20px;border-top:1px solid rgba(0,0,0,.08)"><a style="font:600 12px 'Archivo'">Ver linha do tempo completa →</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</body>
+</html>

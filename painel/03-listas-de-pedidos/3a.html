@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — 3a</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+@keyframes skPulse{0%,100%{opacity:1}50%{opacity:.45}}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 'Archivo',sans-serif;color:rgba(0,0,0,.6)}
+.dv-card{max-width:100%;background:#fff;border:1px solid rgba(0,0,0,.14);overflow:hidden}
+.dv-opt:target .dv-oid{background:#1560ec;color:#fff}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+.dv-card a{text-decoration:none}
+:root{--color-accent:#1560ec;--color-accent-100:oklch(.95 .03 258);--color-accent-200:oklch(.9 .06 258);--color-accent-300:oklch(.82 .1 258);--color-accent-400:oklch(.68 .16 258);--color-accent-500:#1560ec;--color-accent-600:oklch(.5 .19 258);--color-accent-700:#0b3fa1;--color-accent-800:oklch(.32 .13 258);--color-accent-900:oklch(.25 .1 258)}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="3a"><div class="dv-olabel"><a class="dv-oid" href="#3a">3a</a>Listagem de Pedidos — Contador (coluna Pagamento · ⋮ Ver/Anexar NF/Registrar pagamento)</div>
+<div class="dv-card" style="width:1360px;background:var(--color-bg,#f3f2f2)">
+  <div style="display:flex;align-items:center;gap:22px;padding:12px 24px;background:#201e1d;color:#f3f2f2">
+    <div style="display:flex;align-items:center;gap:10px"><img src="../uploads/zataco-wordmark-white.svg" style="height:14px;display:block" alt="ZATACO"></div>
+    <span class="mono" style="font-size:11px;color:#a5a09b">brindes-caico.zataco.com</span>
+    <span style="margin-left:auto;position:relative;font:600 13px 'Archivo'">Notificações<span style="position:absolute;top:-7px;right:-16px;background:#1560ec;color:#fff;font:700 10px 'Archivo';padding:1px 5px">4</span></span>
+    <span style="font:600 13px 'Archivo';margin-left:14px">Rita C. · <span style="color:#a5a09b">Contador</span></span>
+  </div>
+  <div style="display:flex">
+    <div style="width:212px;border-right:2px solid #201e1d;padding:18px 0;display:flex;flex-direction:column;flex:none">
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d">Dashboard</span>
+      <span style="font:700 13px 'Archivo';padding:9px 22px;background:#1560ec;color:#fff">Pedidos</span>
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d;display:flex;align-items:center;justify-content:space-between">Itens<span class="mono" style="background:#ec3013;color:#fff;font:700 10px 'Archivo';padding:1px 5px">8</span></span>
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d">Financeiro</span>
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d">Clientes</span>
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d">Relatórios</span>
+      <span style="font:600 13px 'Archivo';padding:9px 22px;color:#6b6764;margin-top:auto">Meu perfil</span>
+    </div>
+    <div style="flex:1;padding:26px 28px;display:flex;flex-direction:column;gap:16px;min-width:0">
+      <div style="display:flex;align-items:flex-start;gap:14px">
+        <div><div style="font:700 24px 'Archivo';color:#201e1d">Pedidos</div></div>
+        <span style="font:500 11px 'Archivo';color:#a5a09b;margin-left:auto;align-self:center">atualizado há 8 s</span>
+        
+        <button class="btn btn-primary" style="white-space:nowrap">+ Novo pedido</button>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <input class="input" placeholder="Buscar por código ou cliente…" style="width:300px">
+        <div class="seg" style="flex-wrap:wrap"><span class="seg-opt" style="background:#201e1d;color:#fff">Todos (8)</span><span class="seg-opt">Rascunho (1)</span><span class="seg-opt">Aguardando aprovação (2)</span><span class="seg-opt">Em andamento (2)</span><span class="seg-opt">Produção concluída (1)</span><span class="seg-opt">Entregue (1)</span><span class="seg-opt">Cancelado (1)</span></div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+        <table class="table" style="width:100%">
+          <thead><tr><th>Pedido</th><th>Cliente</th><th>Vendedor</th><th>Itens</th><th>Prazo</th><th>Valor</th><th>Pagamento</th><th>Status</th><th ></th></tr></thead>
+          <tbody>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100001</b></td><td>Prefeitura de Caicó</td><td>João Vendedor</td><td><span class="mono" style="font-size:12.5px">3/3 concluídos</span></td><td><span class="mono" style="font-size:12px">10/08</span></td><td><span class="mono" style="font-size:12.5px">R$ 12.400</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .05 150);color:oklch(.38 .09 150);white-space:nowrap">Pago</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .05 150);color:oklch(.38 .09 150);white-space:nowrap">Entregue</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100002</b></td><td>Academia Corpo em Forma</td><td>Carlos Lima</td><td><span class="mono" style="font-size:12.5px">0/2 concluídos</span></td><td><span class="mono" style="font-size:12px">22/08</span></td><td><span class="mono" style="font-size:12.5px">R$ 5.800</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Parcial</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Aguardando aprovação</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100003</b></td><td>Prefeitura de Caicó</td><td>João Vendedor</td><td><span class="mono" style="font-size:12.5px">1/3 concluídos</span></td><td><span class="mono" style="font-size:12px;font-weight:700;color:#ec3013;white-space:nowrap">14/08 · há 2 dias</span></td><td><span class="mono" style="font-size:12.5px">R$ 18.600</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.94 .04 25);color:#a12008;white-space:nowrap">Vencido</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:#e3edff;color:#0b3fa1;white-space:nowrap">Em andamento</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100004</b></td><td>Bordados Silva ME</td><td>João Vendedor</td><td><span class="mono" style="font-size:12.5px">0/1 concluídos</span></td><td><span class="mono" style="font-size:12px">—</span></td><td><span class="mono" style="font-size:12.5px">R$ 3.200</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Parcial</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:#eceae8;color:#6b6764;white-space:nowrap">Rascunho</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100005</b></td><td>Academia Corpo em Forma</td><td>Carlos Lima</td><td><span class="mono" style="font-size:12.5px">2/2 concluídos</span></td><td><span class="mono" style="font-size:12px;font-weight:600;color:oklch(.42 .09 70);white-space:nowrap">18/08 · em 3 dias</span></td><td><span class="mono" style="font-size:12.5px">R$ 6.900</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Parcial</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:#e3edff;color:#0b3fa1;white-space:nowrap">Em andamento</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100006</b></td><td>Bordados Silva ME</td><td>João Vendedor</td><td><span class="mono" style="font-size:12.5px">2/2 concluídos</span></td><td><span class="mono" style="font-size:12px">20/08</span></td><td><span class="mono" style="font-size:12.5px">R$ 7.400</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .05 150);color:oklch(.38 .09 150);white-space:nowrap">Pago</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:#e4e2df;color:#201e1d;white-space:nowrap">Produção concluída</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100007</b></td><td>Prefeitura de Caicó</td><td>Ana Souza</td><td><span class="mono" style="font-size:12.5px">0/2 concluídos</span></td><td><span class="mono" style="font-size:12px">25/08</span></td><td><span class="mono" style="font-size:12.5px">R$ 9.100</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Parcial</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Aguardando aprovação</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+            <tr style="cursor:pointer"><td style="white-space:nowrap"><b class="mono" style="font-size:13px"><span style="color:#a5a09b;font-weight:600">BRC-</span>100008</b></td><td>Academia Corpo em Forma</td><td>Carlos Lima</td><td><span class="mono" style="font-size:12.5px">—</span></td><td><span class="mono" style="font-size:12px">—</span></td><td><span class="mono" style="font-size:12.5px">R$ 2.150</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.93 .06 80);color:oklch(.42 .09 70);white-space:nowrap">Parcial</span></td><td><span style="font:700 11px 'Archivo';padding:3px 8px;background:oklch(.94 .04 25);color:#a12008;white-space:nowrap">Cancelado</span></td><td style="text-align:right"><span style="color:#6b6764;font-weight:700">⋮</span></td></tr>
+          </tbody>
+        </table>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-top:2px solid #201e1d;font:600 12px 'Archivo';color:#6b6764"><span>1–8 de 8 · por página: <b style="color:#201e1d">20 ▾</b> <span style="color:#a5a09b">· 50 · 100</span></span><span style="display:inline-flex;align-items:center;gap:6px"><span style="color:#a5a09b">‹</span><span class="mono" style="display:inline-flex;min-width:26px;height:26px;padding:0 6px;align-items:center;justify-content:center;background:#201e1d;color:#fff;font-weight:700">1</span><span style="color:#a5a09b">›</span></span></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</body>
+</html>
