@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — ds-estacao</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:center;gap:8px;font:500 12px 'Archivo',sans-serif;color:#6b6764}
+.dv-card{box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.mono{font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="ds-estacao"><div class="dv-olabel"><a class="dv-oid" href="#ds-estacao">ds-estacao</a>Estação — padrões locais (fora da lib; compartilha apenas tokens base)</div>
+<div class="dv-card" style="width:1120px;background:#f7f6f5;border:1px solid rgba(0,0,0,.12);padding:26px 30px;display:flex;flex-direction:column;gap:24px">
+  <div style="background:oklch(.96 .04 85);border-left:4px solid #b57e1e;padding:10px 16px;font:600 12.5px 'Archivo';color:#201e1d">Estação — padrões locais (fora da lib; compartilha apenas tokens base). Linguagem própria: light AAA, tipografia de distância — não harmonizar com o painel.</div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Botão-pill com keycap embutido</div>
+  <div style="display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 24px 0 12px;background:#0e8a3c"><span style="display:inline-flex;min-width:42px;height:34px;padding:0 10px;align-items:center;justify-content:center;border:3px solid #fff;color:#fff;font:700 16px ui-monospace,Menlo,monospace">Enter</span><span style="font:700 18px 'Archivo';color:#fff">Confirmar</span></span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23d · confirmar (verde, único por tela)</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 24px 0 12px;background:#c22012"><span style="display:inline-flex;min-width:42px;height:34px;padding:0 10px;align-items:center;justify-content:center;border:3px solid #fff;color:#fff;font:700 16px ui-monospace,Menlo,monospace">0</span><span style="font:700 18px 'Archivo';color:#fff">Cancelar</span></span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23d · cancelar (vermelho fill)</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 24px 0 12px;background:#fff"><span style="display:inline-flex;min-width:42px;height:34px;padding:0 10px;align-items:center;justify-content:center;border:3px solid #161412;color:#161412;font:700 16px ui-monospace,Menlo,monospace">1</span><span style="font:700 18px 'Archivo';color:#161412">Bordado</span></span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23e · opção numerada neutra</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 24px 0 12px;background:#b57e1e"><span style="display:inline-flex;min-width:42px;height:34px;padding:0 10px;align-items:center;justify-content:center;border:3px solid #fff;color:#fff;font:700 16px ui-monospace,Menlo,monospace">2</span><span style="font:700 18px 'Archivo';color:#fff">Solicitar reimpressão</span></span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23i · exceção (âmbar)</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Código hero display</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="font:800 48px/1 ui-monospace,Menlo,monospace;color:#161412;white-space:nowrap">BRC-100003-A</span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23c · linha única, nunca esmaece nem quebra</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Item da fila lateral</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:340px;background:#fff;border:1px solid rgba(0,0,0,.14);display:flex;flex-direction:column">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid rgba(0,0,0,.10)"><span style="font:700 17px ui-monospace,Menlo,monospace;color:#161412;white-space:nowrap">BRC-100003-B</span><span style="font:600 13px 'Archivo';color:#6b6764">14/08</span></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#f7f6f5;border-left:4px solid #1560ec"><span style="font:700 17px ui-monospace,Menlo,monospace;color:#161412;white-space:nowrap">BRC-100003-C</span><span style="font:600 13px 'Archivo';color:#c22012">10/08</span></div>
+  </div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23c/23c-b · selecionado com borda de seleção</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Feedback de tela cheia</div>
+  <div style="display:flex;gap:22px;flex-wrap:wrap">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:400px;height:220px;background:#0e8a3c;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center"><div style="font:800 52px/1 'Archivo'">✓</div><div style="font:800 24px ui-monospace,Menlo,monospace;white-space:nowrap">BRC-100003-A</div><div style="font:700 18px 'Archivo'">Bordado registrado</div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23g · sucesso (~1s)</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:400px;height:220px;background:#c22012;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center"><div style="font:800 52px/1 'Archivo'">✗</div><div style="font:700 18px 'Archivo';max-width:320px">Este item não está na fila desta estação</div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23h · erro reativo</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Barra de status do totem</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;align-items:center;gap:20px;padding:13px 28px;background:#fff;border-bottom:3px solid #161412;width:900px"><span style="font:700 19px 'Archivo';color:#161412">Mesa Bordado</span><span style="display:inline-flex;align-items:center;gap:8px;font:600 14px 'Archivo';color:#0e8a3c"><span style="width:11px;height:11px;background:#0e8a3c"></span>Online</span><span style="margin-left:auto;font:600 17px ui-monospace,Menlo,monospace;color:#161412">14:32</span><span style="font:500 12px 'Archivo';color:#a5a09b">v0.2.0</span></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 23c · header permanente</div></div>
+</div></div>
+</body>
+</html>

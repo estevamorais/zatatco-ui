@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — ds-navegacao</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:center;gap:8px;font:500 12px 'Archivo',sans-serif;color:#6b6764}
+.dv-card{box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.mono{font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="ds-navegacao"><div class="dv-olabel"><a class="dv-oid" href="#ds-navegacao">ds-navegacao</a>Navegação — AppHeader · Sidebar · Tabs · Breadcrumb</div>
+<div class="dv-card" style="width:1120px;background:#fff;border:1px solid rgba(0,0,0,.12);padding:26px 30px;display:flex;flex-direction:column;gap:24px">
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">AppHeader + dropdown do usuário</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="position:relative;height:150px;background:#f3f2f2;overflow:hidden;border:1px solid rgba(0,0,0,.08)">
+    <div style="display:flex;align-items:center;gap:22px;padding:12px 24px;background:#201e1d;color:#f3f2f2">
+      <img src="../../uploads/zataco-wordmark-white.svg" style="height:14px;display:block" alt="ZATACO">
+      <span style="font:500 12px 'Archivo';color:#a5a09b"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><rect width="7" height="9" x="3" y="3" rx="0"/><rect width="7" height="5" x="14" y="3" rx="0"/><rect width="7" height="9" x="14" y="12" rx="0"/><rect width="7" height="5" x="3" y="16" rx="0"/></svg>Dashboard</span>
+      <span style="margin-left:auto;position:relative;font:600 13px 'Archivo'">Notificações<span style="position:absolute;top:-7px;right:-16px;background:#1560ec;color:#fff;font:700 10px 'Archivo';padding:1px 5px">3</span></span>
+      <span style="font:600 13px 'Archivo';margin-left:14px">Marina A. · <span style="color:#a5a09b">Administrador</span> <span style="color:#a5a09b;font-size:11px">▾</span></span>
+    </div>
+    <div style="position:absolute;top:44px;right:24px;width:190px;background:#fff;border:1px solid rgba(0,0,0,.2);box-shadow:0 12px 32px rgba(0,0,0,.28);display:flex;flex-direction:column;z-index:5">
+      <span style="font:600 13px 'Archivo';padding:11px 16px;color:#201e1d;background:#f3f2f2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Meu perfil</span>
+      <span style="border-top:1px solid rgba(0,0,0,.12)"></span>
+      <span style="font:600 13px 'Archivo';padding:11px 16px;color:#201e1d;display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg>Sair</span>
+    </div>
+  </div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 26c · wordmark ZATACO oficial</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Sidebar — 212px, item ativo, submenu, rodapé</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:212px;border:1px solid rgba(0,0,0,.12);background:#fff;padding:14px 0;display:flex;flex-direction:column;height:330px">
+    <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><rect width="7" height="9" x="3" y="3" rx="0"/><rect width="7" height="5" x="14" y="3" rx="0"/><rect width="7" height="9" x="14" y="12" rx="0"/><rect width="7" height="5" x="3" y="16" rx="0"/></svg>Dashboard</span>
+    <span style="font:700 13px 'Archivo';padding:9px 22px;background:#1560ec;color:#fff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><rect width="8" height="4" x="8" y="2" rx="0"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>Pedidos</span>
+    <span style="font:600 13px 'Archivo';padding:9px 22px;color:#201e1d;display:flex;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>Itens<span class="mono" style="margin-left:auto;background:#ec3013;color:#fff;font:700 10px 'Archivo';padding:1px 5px">8</span></span>
+    <span style="font:700 13px 'Archivo';padding:9px 22px;color:#201e1d;display:flex;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>Configurações<span style="margin-left:auto;font:600 11px 'Archivo';color:#6b6764">▾</span></span>
+    <span style="font:500 12.5px 'Archivo';padding:8px 22px 8px 33px;color:#6b6764;border-left:3px solid #e4e2df"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M10 12h11"/><path d="M10 18h11"/><path d="M10 6h11"/><path d="M4 10h2"/><path d="M4 6h1v4"/><path d="M6 18H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>Steps</span>
+    <span style="font:700 12.5px 'Archivo';padding:8px 22px 8px 33px;background:#1560ec;color:#fff;border-left:3px solid #0d3fa3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><rect width="20" height="14" x="2" y="3" rx="0"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>Estações</span>
+    <span style="font:600 13px 'Archivo';padding:9px 22px;color:#6b6764;margin-top:auto"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Meu perfil</span>
+    <span style="font:600 13px 'Archivo';padding:9px 22px;color:#6b6764;display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg>Sair</span>
+  </div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 3a · 16e</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Tabs</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;gap:0;border-bottom:1px solid rgba(0,0,0,.10)"><span style="font:700 13px 'Archivo';padding:10px 18px;background:#201e1d;color:#fff">Visão Geral</span><span style="font:600 13px 'Archivo';padding:10px 18px;color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;vertical-align:-3px"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>Itens</span><span style="font:600 13px 'Archivo';padding:10px 18px;color:#6b6764">Design<span class="mono" style="margin-left:6px;background:#ec3013;color:#fff;font:700 10px 'Archivo';padding:1px 5px;vertical-align:2px">1</span></span><span style="font:600 13px 'Archivo';padding:10px 18px;color:#6b6764">Histórico</span></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: detalhe do pedido</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Breadcrumb</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span style="font:500 12px 'Archivo';color:#a5a09b">Pedidos / <b style="color:#201e1d">Pedido BRC-100003</b></span><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: header das telas</div></div>
+  </div></div>
+</body>
+</html>

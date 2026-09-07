@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — ds-superficies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:center;gap:8px;font:500 12px 'Archivo',sans-serif;color:#6b6764}
+.dv-card{box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.mono{font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="ds-superficies"><div class="dv-olabel"><a class="dv-oid" href="#ds-superficies">ds-superficies</a>Estrutura e superfícies — Card · Modal · Toast · ContextBanner · EmptyState</div>
+<div class="dv-card" style="width:1120px;background:#fff;border:1px solid rgba(0,0,0,.12);padding:26px 30px;display:flex;flex-direction:column;gap:24px">
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Card — 4 anatomias</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:22px 26px">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:#fff;border:1px solid rgba(0,0,0,.12);padding:16px 20px;font:500 12.5px 'Archivo';color:#6b6764">Card simples — superfície branca, borda padrão, padding 16/20.</div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: (a) base de tudo</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:12px 20px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Atenção</div><div style="padding:14px 20px;font:500 12.5px 'Archivo';color:#6b6764">Corpo do card.</div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: (b) 22a · header interno</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:16px 20px;font:500 12.5px 'Archivo';color:#6b6764">Corpo do formulário.</div><div style="display:flex;gap:10px;padding:14px 20px;border-top:1px solid rgba(0,0,0,.10)"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px">Salvar</button><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px">Cancelar</button></div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: (c) formulários · rodapé de ações</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:12px 20px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Publicação</div><div style="padding:14px 20px;display:flex;flex-direction:column;gap:8px"><div style="display:flex;justify-content:space-between"><span style="font:500 12px 'Archivo';color:#6b6764">SKU</span><span class="mono" style="font:600 12px ui-monospace,Menlo,monospace;color:#201e1d">PRD-001</span></div><div style="display:flex;justify-content:space-between"><span style="font:500 12px 'Archivo';color:#6b6764">Criado em</span><span class="mono" style="font:600 12px ui-monospace,Menlo,monospace;color:#201e1d">12/07/2026</span></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px 20px;border-top:1px solid rgba(0,0,0,.10)"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px;width:100%">Salvar produto</button><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px;width:100%">Cancelar</button></div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: (d) 12b/13b · card lateral de resumo (coluna 35%)</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Modal — anatomia completa com overlay</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="position:relative;height:430px;background:#f3f2f2;overflow:hidden;border:1px solid rgba(0,0,0,.08)"><div style="padding:18px 24px;font:700 24px 'Archivo';color:#201e1d">Pedido BRC-100003</div><div style="position:absolute;inset:0;background:rgba(0,0,0,.45)"></div>
+  <div style="position:absolute;top:36px;left:50%;transform:translateX(-50%);width:600px;background:#fff;box-shadow:0 12px 32px rgba(0,0,0,.28)">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;padding:16px 24px;border-bottom:1px solid rgba(0,0,0,.10)"><span style="font:700 16px 'Archivo';color:#201e1d">Registrar retorno do cliente — Item <span class="mono">BRC-100003-B</span></span><span style="font:600 16px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span></div>
+    <div style="padding:20px 24px;display:flex;flex-direction:column;gap:14px">
+      <span style="font:500 12px 'Archivo';color:#6b6764">O cliente analisou a <b>ARTE V2</b>. Qual foi o retorno?</span>
+      <div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:2px solid #1560ec;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"><span style="width:8px;height:8px;background:#1560ec"></span></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Aprovou a arte</span><span style="font:500 12px 'Archivo';color:#6b6764">O item avança para foto ilustrativa e etiquetas.</span></div></div>
+      <div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:2px solid #a5a09b;flex:none;margin-top:2px"></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Pediu alteração</span><span style="font:500 12px 'Archivo';color:#6b6764">O Designer recebe os comentários e produz nova versão.</span></div></div>
+    </div>
+    <div style="display:flex;justify-content:flex-end;gap:10px;padding:14px 24px;border-top:1px solid rgba(0,0,0,.10)"><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px">Cancelar</button><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px">Registrar retorno</button></div>
+  </div></div>
+  <div style="display:flex;justify-content:flex-end;gap:10px;padding:10px 0 0"><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px">Voltar</button><button style="border:none;background:#ec3013;color:#fff;font:600 13px 'Archivo';padding:9px 16px">Cancelar pedido</button></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 4k · overlay rgba(0,0,0,.45) · variante de rodapé com perigo</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Toast</div>
+  <div style="display:flex;gap:26px;flex-wrap:wrap">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:oklch(.95 .05 150);border:1px solid oklch(.6 .12 150);padding:12px 16px;display:flex;align-items:baseline;gap:12px;font:600 13px 'Archivo';color:oklch(.3 .09 150);max-width:430px">✓ Sessão invalidada.<a style="font:600 13px 'Archivo'">Gerar código de pareamento →</a></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 16c-b · sucesso</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="background:oklch(.95 .06 25);border:1px solid oklch(.6 .18 25);padding:12px 16px;font:600 13px 'Archivo';color:oklch(.42 .16 25);max-width:430px">Sua senha provisória expirou — peça um novo convite ao administrador.</div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 18a · erro</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">ContextBanner</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;flex-direction:column;gap:10px;max-width:640px">
+    <div style="display:flex;align-items:center;gap:14px;padding:12px 18px;background:oklch(.96 .04 85);border-left:4px solid #b57e1e"><span style="font:700 15px 'Archivo';color:#b57e1e;flex:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg></span><span style="font:600 13px 'Archivo';color:#201e1d;flex:1">Pedido cancelado há 3 h. Você pode reverter até <b>07/08 às 14:32</b>.</span><button style="border:none;background:#201e1d;color:#fff;font:600 12px 'Archivo';padding:7px 12px;white-space:nowrap">Reverter cancelamento</button></div>
+    <div style="display:flex;align-items:center;gap:14px;padding:12px 18px;background:oklch(.96 .04 85);border-left:4px solid #b57e1e"><span style="font:700 15px 'Archivo';color:#b57e1e;flex:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span><span style="font:600 13px 'Archivo';color:#201e1d;flex:1">3 retrabalhos abertos</span><a style="font:700 12px 'Archivo';white-space:nowrap">Ver retrabalhos →</a></div>
+    <div style="display:flex;align-items:center;gap:14px;padding:12px 18px;background:oklch(.95 .04 30);border-left:4px solid #ec3013"><span style="font:700 15px 'Archivo';color:#ec3013;flex:none">▲</span><span style="font:600 13px 'Archivo';color:#201e1d;flex:1">Pedido atrasado — prazo venceu em 02/08 (há 3 dias)</span><a style="font:700 12px 'Archivo';white-space:nowrap">Ver produção →</a></div>
+  </div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 6h</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">EmptyState</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:400px;background:#fff;border:1px solid rgba(0,0,0,.12);padding:34px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center"><span style="font:700 22px 'Archivo';color:#a5a09b">▦</span><span style="font:600 13px 'Archivo';color:#6b6764">Nenhum produto cadastrado ainda.</span><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px">+ Cadastrar primeiro produto</button></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 13f</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Accordion / collapse</div>
+  <div style="display:flex;gap:22px;flex-wrap:wrap">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:340px;background:#fff;border:1px solid rgba(0,0,0,.12);padding:14px 20px"><a style="font:600 13px 'Archivo'">Trocar minha senha →</a></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 26b · fechado</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="width:340px;background:#fff;border:1px solid rgba(0,0,0,.12)"><div style="padding:14px 20px;border-bottom:1px solid rgba(0,0,0,.10)"><a style="font:600 13px 'Archivo'">Trocar minha senha ▾</a></div><div style="padding:14px 20px;font:500 12.5px 'Archivo';color:#6b6764">Conteúdo expandido.</div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 26a · aberto</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Notas de escopo</div>
+  <div style="display:flex;flex-direction:column;gap:6px;font:500 12.5px 'Archivo';color:#6b6764">
+    <span>· <b style="color:#201e1d">Lista de versões de arte</b> (4m) — fora da lib; composto local do modal de artes</span>
+    <span>· <b style="color:#201e1d">Tooltips</b> — padrão nativo via <span class="mono" style="font-size:11px">title</span>; nota de uso, não componente</span>
+    <span>· <b style="color:#201e1d">Avatar</b> — não existe no sistema; não criar</span>
+  </div></div></div>
+</body>
+</html>

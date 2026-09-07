@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zataco — ds-acoes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:#e9e7e4;font-family:'Archivo',system-ui,sans-serif}
+a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec)}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Archivo',sans-serif;color:#1a1a1a}
+.dv-group{font:700 11px 'Archivo',sans-serif;letter-spacing:.14em;color:#6b6764;margin:34px 0 14px;border-top:2px solid #201e1d;padding-top:10px;text-transform:uppercase}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.1);color:#1a1a1a;text-decoration:none}
+.dv-olabel{display:flex;align-items:center;gap:8px;font:500 12px 'Archivo',sans-serif;color:#6b6764}
+.dv-card{box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.mono{font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body style="padding:24px">
+<div class="dv-opt" id="ds-acoes"><div class="dv-olabel"><a class="dv-oid" href="#ds-acoes">ds-acoes</a>Ações — Button · ButtonGroup · split button · ActionLink · menu ⋮</div>
+<div class="dv-card" style="width:1120px;background:#fff;border:1px solid rgba(0,0,0,.12);padding:26px 30px;display:flex;flex-direction:column;gap:24px">
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Button</div>
+  <div style="display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px;text-align:left;cursor:pointer">Salvar pedido</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 12b · primário</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px;text-align:left;cursor:pointer">Cancelar</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 12b · secundário</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="border:none;background:#ec3013;color:#fff;font:600 13px 'Archivo';padding:9px 16px;text-align:left;cursor:pointer">Cancelar pedido</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 4x · perigo</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px;opacity:.45;text-align:left">Salvar pedido</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: estado desabilitado</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:9px 16px;display:inline-flex;align-items:center;gap:8px;text-align:left;cursor:pointer">+ Novo pedido</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 3a · com ícone</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 11.5px 'Archivo';padding:5px 10px;text-align:left;cursor:pointer">Anexar arte</button><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: listagem Designer · compacto de tabela</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">ButtonGroup — header de detalhe</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;gap:10px"><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px;white-space:nowrap">Editar</button><button style="background:#fff;border:1px solid #a5a09b;color:#201e1d;font:600 13px 'Archivo';padding:9px 16px;white-space:nowrap">Reimprimir etiquetas</button><button style="background:none;border:none;color:#a12008;font:600 13px 'Archivo';padding:9px 16px;white-space:nowrap">Cancelar pedido</button></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 7a</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">Split button — com menu aberto</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;flex-direction:column;width:320px"><button style="border:none;background:#201e1d;color:#fff;font:600 13px 'Archivo';padding:11px 16px;display:flex;justify-content:space-between;width:100%"><span>Enviar para aprovação</span><span>▾</span></button><div style="border:1px solid rgba(0,0,0,.2);border-top:0;background:#fff;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:10px 14px;font:600 13px 'Archivo';background:oklch(.97 .02 255);border-bottom:1px solid rgba(0,0,0,.08)">Enviar para aprovação <span style="font:500 11px 'Archivo';color:#6b6764">· padrão</span></div><div style="padding:10px 14px;font:600 13px 'Archivo'">Aprovar imediatamente →</div></div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 12a</div></div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">ActionLink · menu de ações ⋮</div>
+  <div style="display:flex;gap:34px;align-items:flex-start;flex-wrap:wrap">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;gap:18px"><a style="font:600 12px 'Archivo'">Ver detalhes</a><a style="font:600 12px 'Archivo'">Baixar</a><a style="font:700 12px 'Archivo'">Ver retrabalhos →</a></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: tabelas · banners · ActionLink azul</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="position:relative;width:190px;height:104px"><span style="position:absolute;top:0;right:0;color:#6b6764;font-weight:700">⋮</span><div style="position:absolute;top:20px;right:0;width:170px;background:#fff;border:1px solid rgba(0,0,0,.2);box-shadow:0 12px 32px rgba(0,0,0,.28);display:flex;flex-direction:column"><span style="font:600 13px 'Archivo';padding:10px 16px;color:#201e1d;background:#f3f2f2">Editar</span><span style="font:600 13px 'Archivo';padding:10px 16px;color:#ec3013">Excluir</span></div></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 13e · menu ⋮ aberto</div></div>
+  </div>
+  <div style="font:700 12px 'Archivo';letter-spacing:.1em;color:#6b6764;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,.10);padding-bottom:8px">ActionLink com seta — variante</div>
+  <div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="display:flex;gap:22px"><a style="font:600 12px 'Archivo'">Ver todos →</a><a style="font:600 12px 'Archivo'">Relatório financeiro →</a><a style="font:600 13px 'Archivo'">Gerar código de pareamento →</a></div><div style="font:600 10px 'Archivo';letter-spacing:.08em;color:#a5a09b;text-transform:uppercase;margin-top:2px">origem: 22a e 45 telas · variante do ActionLink, não componente novo</div></div></div></div>
+</body>
+</html>
