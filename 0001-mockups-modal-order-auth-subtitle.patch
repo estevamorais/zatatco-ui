@@ -1,0 +1,406 @@
+From 6184dd8fa479c6f920923438a4b1993eae3d01c1 Mon Sep 17 00:00:00 2001
+From: Revisor <rev@zataco>
+Date: Sat, 12 Sep 2026 19:47:58 +0000
+Subject: [PATCH] =?UTF-8?q?fix(mockups):=20modal=20footer=20order=20[Cance?=
+ =?UTF-8?q?lar][Prim=C3=A1rio]=20(20=20footers/19=20files)=20+=20auth=20su?=
+ =?UTF-8?q?btitle=2015px=20(=C2=A74g)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ 01-painel/01-login-e-recuperacao-de-senha/18b.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18c.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18d-b.html | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18d.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18e.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18f.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/18g.html   | 2 +-
+ 01-painel/01-login-e-recuperacao-de-senha/1h.html    | 2 +-
+ 01-painel/04-modais-de-acao/4d.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4e.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4f.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4g.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4h.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4k.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4o.html                  | 2 +-
+ 01-painel/04-modais-de-acao/4u.html                  | 2 +-
+ 01-painel/11-criacao-de-pedido-vendedor/12m.html     | 2 +-
+ 01-painel/13-produtos/13g.html                       | 2 +-
+ 01-painel/14-linhas-de-producao/14c.html             | 2 +-
+ 01-painel/16-motivos-de-retrabalho/20a-modal-2.html  | 2 +-
+ 01-painel/16-motivos-de-retrabalho/20a-modal.html    | 2 +-
+ 01-painel/16-motivos-de-retrabalho/20b.html          | 4 ++--
+ 01-painel/17-estacoes-e-pareamento/16a-modal-2.html  | 2 +-
+ 01-painel/17-estacoes-e-pareamento/16a-modal.html    | 2 +-
+ 01-painel/18-usuarios/17a-modal.html                 | 2 +-
+ 01-painel/20-tenants/21a-modal-2.html                | 2 +-
+ 01-painel/20-tenants/21a-modal.html                  | 2 +-
+ 27 files changed, 28 insertions(+), 28 deletions(-)
+
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18b.html b/01-painel/01-login-e-recuperacao-de-senha/18b.html
+index c6fd59d..bb94239 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18b.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18b.html
+@@ -40,7 +40,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     <div class="mono" style="font-size:12px;opacity:.85">brindes-caico.zataco.com</div>
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Esqueci minha senha</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:4px">Informe seu e-mail — enviaremos um código de 6 dígitos para redefinir a senha.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Esqueci minha senha</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:4px">Informe seu e-mail — enviaremos um código de 6 dígitos para redefinir a senha.</div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">E-MAIL</label><input class="input" value="joao@brindescaico.com" style="width:100%"></div>
+     <button class="btn btn-primary btn-block">Enviar código</button>
+     <a style="font:600 12.5px 'Archivo';align-self:flex-start" href="#1h">← Voltar ao login</a>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18c.html b/01-painel/01-login-e-recuperacao-de-senha/18c.html
+index f4643ae..5a21add 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18c.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18c.html
+@@ -41,7 +41,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+     <div style="width:44px;height:44px;background:#201e1d;color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><rect width="20" height="16" x="2" y="4" rx="0"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Digite o código</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:6px;line-height:1.6">Enviamos um código de 6 dígitos para <b style="color:#201e1d">joao@brindescaico.com</b> — se este e-mail estiver cadastrado. <b style="color:#201e1d">O código vale por 15 minutos.</b></div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Digite o código</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:6px;line-height:1.6">Enviamos um código de 6 dígitos para <b style="color:#201e1d">joao@brindescaico.com</b> — se este e-mail estiver cadastrado. <b style="color:#201e1d">O código vale por 15 minutos.</b></div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">CÓDIGO</label><div style="display:flex;gap:8px;justify-content:space-between"><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div><div style="width:52px;height:60px;border:2px solid oklch(.6 .2 25);background:#fff;display:flex;align-items:center;justify-content:center;font:800 26px ui-monospace,Menlo,monospace;color:#201e1d"></div></div><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Código incorreto — verifique e tente de novo. 3 tentativas restantes.</span></div>
+     <button class="btn btn-primary btn-block">Verificar código</button>
+     <div style="font:500 12.5px 'Archivo';color:#6b6764">Não recebeu? <span style="font:600 12.5px 'Archivo';color:#a5a09b">Reenviar código (52s)</span></div>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18d-b.html b/01-painel/01-login-e-recuperacao-de-senha/18d-b.html
+index 1d484ab..8af51ac 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18d-b.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18d-b.html
+@@ -40,7 +40,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     <div class="mono" style="font-size:12px;opacity:.85">brindes-caico.zataco.com</div>
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Bem-vinda, Ana!</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:4px;line-height:1.6">Você entrou com a senha provisória do seu convite. Defina sua senha definitiva para começar.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Bem-vinda, Ana!</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:4px;line-height:1.6">Você entrou com a senha provisória do seu convite. Defina sua senha definitiva para começar.</div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff"><span class="mono" style="font-size:13px;color:#201e1d">••••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">CONFIRMAR NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff"><span class="mono" style="font-size:13px;color:#201e1d">••••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div></div>
+     <span style="font:500 11px 'Archivo';color:#6b6764">Mínimo de 8 caracteres.</span>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18d.html b/01-painel/01-login-e-recuperacao-de-senha/18d.html
+index ded2740..6699215 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18d.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18d.html
+@@ -40,7 +40,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     <div class="mono" style="font-size:12px;opacity:.85">brindes-caico.zataco.com</div>
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Redefinir senha</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:4px">Código verificado ✓ — defina a nova senha para <b style="color:#201e1d">joao@brindescaico.com</b>.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Redefinir senha</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:4px">Código verificado ✓ — defina a nova senha para <b style="color:#201e1d">joao@brindescaico.com</b>.</div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25);"><span class="mono" style="font-size:13px;color:#201e1d">••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">A senha precisa de pelo menos 8 caracteres</span></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">CONFIRMAR NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25);"><span class="mono" style="font-size:13px;color:#201e1d">••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">As senhas não coincidem</span></div>
+     <span style="font:500 11px 'Archivo';color:#6b6764">Mínimo de 8 caracteres.</span>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18e.html b/01-painel/01-login-e-recuperacao-de-senha/18e.html
+index 86cfad1..c91d9ad 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18e.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18e.html
+@@ -41,7 +41,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+     <div style="width:44px;height:44px;background:#e4e2df;color:#6b6764;display:flex;align-items:center;justify-content:center;font-size:20px;border:1px solid rgba(0,0,0,.15)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg></div>
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Este código não é mais válido</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:6px;line-height:1.6">Códigos valem por <b style="color:#201e1d">15 minutos</b> e são bloqueados após <b style="color:#201e1d">5 tentativas erradas</b>.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Este código não é mais válido</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:6px;line-height:1.6">Códigos valem por <b style="color:#201e1d">15 minutos</b> e são bloqueados após <b style="color:#201e1d">5 tentativas erradas</b>.</div></div>
+     <button class="btn btn-primary btn-block"><a style="color:inherit;text-decoration:none" href="#18b">Solicitar novo código</a></button>
+     <a style="font:600 12.5px 'Archivo';align-self:flex-start" href="#1h">← Voltar ao login</a>
+   </div></div>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18f.html b/01-painel/01-login-e-recuperacao-de-senha/18f.html
+index 8550382..5059224 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18f.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18f.html
+@@ -41,7 +41,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+     <div style="width:44px;height:44px;background:oklch(.93 .05 150);color:oklch(.32 .09 150);display:flex;align-items:center;justify-content:center;font-size:20px;border:1px solid oklch(.6 .12 150)">✓</div>
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Senha redefinida</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:6px">Suas sessões anteriores foram encerradas — entre com a nova senha.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Senha redefinida</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:6px">Suas sessões anteriores foram encerradas — entre com a nova senha.</div></div>
+     <button class="btn btn-primary btn-block"><a style="color:inherit;text-decoration:none" href="#1h">Ir para o login</a></button>
+   </div></div>
+ </div></div>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/18g.html b/01-painel/01-login-e-recuperacao-de-senha/18g.html
+index 4f7660f..b61c340 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/18g.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/18g.html
+@@ -40,7 +40,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     <div class="mono" style="font-size:12px;opacity:.85">brindes-caico.zataco.com</div>
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Defina sua nova senha</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:4px">Você entrou com uma senha temporária — defina a sua para continuar.</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Defina sua nova senha</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:4px">Você entrou com uma senha temporária — defina a sua para continuar.</div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff;"><span class="mono" style="font-size:13px;color:#201e1d">••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">CONFIRMAR NOVA SENHA</label><div class="input" style="display:flex;align-items:center;justify-content:space-between;background:#fff;"><span class="mono" style="font-size:13px;color:#201e1d">••••••</span><span style="font:600 12px 'Archivo';color:#6b6764"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span></div></div>
+     <span style="font:500 11px 'Archivo';color:#6b6764">Mínimo de 8 caracteres.</span>
+diff --git a/01-painel/01-login-e-recuperacao-de-senha/1h.html b/01-painel/01-login-e-recuperacao-de-senha/1h.html
+index 377f461..9fa6342 100644
+--- a/01-painel/01-login-e-recuperacao-de-senha/1h.html
++++ b/01-painel/01-login-e-recuperacao-de-senha/1h.html
+@@ -40,7 +40,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     <div class="mono" style="font-size:12px;opacity:.85">brindes-caico.zataco.com</div>
+   </div>
+   <div style="flex:1;padding:48px 44px;display:flex;flex-direction:column;gap:18px;justify-content:center;align-items:center"><div style="width:380px;display:flex;flex-direction:column;gap:18px">
+-    <div><div style="font:700 24px 'Archivo';color:#201e1d">Brindes Caicó</div><div style="font:500 14px 'Archivo';color:#6b6764;margin-top:4px">Entre com a conta do seu perfil</div></div>
++    <div><div style="font:700 24px 'Archivo';color:#201e1d">Brindes Caicó</div><div style="font:500 15px 'Archivo';color:#6b6764;margin-top:4px">Entre com a conta do seu perfil</div></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">E-MAIL</label><input class="input" value="marina@brindescaico.com" style="width:100%"></div>
+     <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em;color:#201e1d">SENHA</label><input class="input" type="password" value="senhasegura" style="width:100%"><a style="font:600 12.5px 'Archivo';align-self:flex-start;margin-top:8px">Esqueci minha senha</a></div>
+     <div style="background:oklch(.95 .06 25);border:1px solid oklch(.6 .18 25);padding:10px 14px;font:600 12px 'Archivo';color:oklch(.42 .16 25)">Sua senha provisória expirou — peça um novo convite ao administrador.</div>
+diff --git a/01-painel/04-modais-de-acao/4d.html b/01-painel/04-modais-de-acao/4d.html
+index 80ad5c8..16a74b2 100644
+--- a/01-painel/04-modais-de-acao/4d.html
++++ b/01-painel/04-modais-de-acao/4d.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;flex-direction:column;gap:5px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">COMPROVANTE · OPCIONAL</label><div style="border:1px dashed #a5a09b;padding:12px 16px;font:600 13px 'Archivo';color:#6b6764">+ Anexar arquivo</div></div>
+       <span style="font:500 12px 'Archivo';color:#6b6764">A parcela será marcada como <b>paga</b> e o total recebido do pedido atualizado.</span>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Registrar pagamento</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Registrar pagamento</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4e.html b/01-painel/04-modais-de-acao/4e.html
+index 1c2c594..3b86554 100644
+--- a/01-painel/04-modais-de-acao/4e.html
++++ b/01-painel/04-modais-de-acao/4e.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;flex-direction:column;gap:5px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">NÚMERO DA NF · OPCIONAL</label><input class="input mono" value="000.123" style="width:200px"></div>
+       <span style="font:500 12px 'Archivo';color:#6b6764">A NF fica disponível na tab Anexos para toda a equipe.</span>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Anexar NF</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Anexar NF</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4f.html b/01-painel/04-modais-de-acao/4f.html
+index 1384650..a0dd427 100644
+--- a/01-painel/04-modais-de-acao/4f.html
++++ b/01-painel/04-modais-de-acao/4f.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="background:#e3edff;padding:10px 14px;font:500 12.5px 'Archivo';color:#0b3fa1">Será registrada como <b>ARTE V2</b> — o histórico preserva a V1.</div>
+       <div style="display:flex;flex-direction:column;gap:5px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">COMENTÁRIO (OPCIONAL)</label><input class="input" placeholder="O que mudou nesta versão?" style="width:100%"></div>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Anexar arte</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Anexar arte</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4g.html b/01-painel/04-modais-de-acao/4g.html
+index d52162d..6af4d50 100644
+--- a/01-painel/04-modais-de-acao/4g.html
++++ b/01-painel/04-modais-de-acao/4g.html
+@@ -42,7 +42,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;gap:14px;align-items:center"><div style="width:96px;height:96px;background:#e4e2df;display:flex;align-items:center;justify-content:center;font:600 9px 'Archivo';color:#8a8580;flex:none">PREVIEW</div><div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;align-items:center;gap:10px;border:1px solid rgba(0,0,0,.15);padding:10px 14px"><span class="mono" style="font-size:12.5px;font-weight:600">camiseta-polo-foto.jpg</span><span style="font:500 11px 'Archivo';color:#a5a09b">1,8 MB</span><a style="margin-left:auto;font:600 12px 'Archivo'">remover</a></div></div></div>
+       <span style="font:500 12px 'Archivo';color:#6b6764">Exibida ao operador na Estação — a produção segue a arte e esta foto.</span>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Anexar foto</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Anexar foto</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4h.html b/01-painel/04-modais-de-acao/4h.html
+index ebc7757..0294c01 100644
+--- a/01-painel/04-modais-de-acao/4h.html
++++ b/01-painel/04-modais-de-acao/4h.html
+@@ -42,7 +42,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="background:#e3edff;padding:10px 14px;font:500 12.5px 'Archivo';color:#0b3fa1"><b>4 etiquetas</b> serão geradas — na produção em lote, o operador bipa a etiqueta do lote informando a quantidade.</div>
+       <span style="font:500 12px 'Archivo';color:#6b6764">Após gerar, o item vai para <b>Encaminhado à produção</b>.</span>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Gerar PDF de etiquetas</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Gerar PDF de etiquetas</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4k.html b/01-painel/04-modais-de-acao/4k.html
+index 864e443..ad32c4a 100644
+--- a/01-painel/04-modais-de-acao/4k.html
++++ b/01-painel/04-modais-de-acao/4k.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:1px solid #a5a09b;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Pediu alteração</span><span style="font:500 12px 'Archivo';color:#6b6764">O Designer recebe os comentários e produz nova versão.</span></div></div>
+       <div style="display:flex;flex-direction:column;gap:5px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">COMENTÁRIOS (OPCIONAL)</label><input class="input" placeholder="Ex.: cliente confirmou por WhatsApp às 11:02" style="width:100%"></div>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Registrar retorno</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Registrar retorno</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4o.html b/01-painel/04-modais-de-acao/4o.html
+index 42bf6f9..13330d6 100644
+--- a/01-painel/04-modais-de-acao/4o.html
++++ b/01-painel/04-modais-de-acao/4o.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;gap:16px;padding-left:26px;font:600 12.5px 'Archivo';color:#6b6764"><span><span style="display:inline-flex;width:16px;height:16px;border:2px solid #a5a09b;background:#fff;vertical-align:-3px;margin-right:5px"></span>Lote 1</span><span><span style="display:inline-flex;width:16px;height:16px;border:2px solid #a5a09b;background:#fff;vertical-align:-3px;margin-right:5px"></span>Lote 2</span><span style="color:#201e1d"><span style="display:inline-flex;width:16px;height:16px;border:2px solid #201e1d;background:#201e1d;color:#fff;align-items:center;justify-content:center;vertical-align:-3px;margin-right:5px"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M20 6 9 17l-5-5"/></svg></span>Lote 3</span><span><span style="display:inline-flex;width:16px;height:16px;border:2px solid #a5a09b;background:#fff;vertical-align:-3px;margin-right:5px"></span>Lote 4</span></div>
+       <span style="font:500 12px 'Archivo';color:#6b6764">A reimpressão fica registrada no histórico do item.</span>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Reimprimir</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Reimprimir</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/04-modais-de-acao/4u.html b/01-painel/04-modais-de-acao/4u.html
+index ca04d92..8d557f5 100644
+--- a/01-painel/04-modais-de-acao/4u.html
++++ b/01-painel/04-modais-de-acao/4u.html
+@@ -43,7 +43,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       <div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:2px solid #1560ec;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"><span style="width:8px;height:8px;background:#1560ec"></span></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Pediu alteração</span><span style="font:500 12px 'Archivo';color:#6b6764">O Designer recebe os comentários e produz nova versão.</span></div></div>
+       <div style="display:flex;flex-direction:column;gap:5px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">COMENTÁRIOS *</label><textarea class="input" style="width:100%;height:64px;resize:none;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25)">Cliente quer o logo maior na frente e o telefone no lado direito.</textarea><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Descreva o que o cliente pediu — o Designer trabalhará a partir daqui</span></div>
+     </div>
+-    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Registrar retorno</button><button class="btn btn-ghost">Cancelar</button></div>
++    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center;padding:14px 24px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Registrar retorno</button></div>
+   </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/11-criacao-de-pedido-vendedor/12m.html b/01-painel/11-criacao-de-pedido-vendedor/12m.html
+index 085ee34..f91cb48 100644
+--- a/01-painel/11-criacao-de-pedido-vendedor/12m.html
++++ b/01-painel/11-criacao-de-pedido-vendedor/12m.html
+@@ -105,7 +105,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     </div>
+   </div>
+ 
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:120px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:600px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Instruções de design — Boné Trucker bordado</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:8px"><div style="border:1px solid #1560ec;outline:2px solid rgba(21,96,236,.25);background:#fff;padding:12px 14px;font:500 13px 'Archivo';color:#201e1d;line-height:1.7;min-height:158px">bordado nas laterais com nome da empresa<br>lado direito: telefone · lado esquerdo: e-mail<br>frente sublimada com logo grande</div><span style="font:500 11.5px 'Archivo';color:#6b6764">Tudo que o designer precisa para criar a arte deste item — posições, textos, cores, técnicas.</span></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Salvar instruções</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:120px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:600px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Instruções de design — Boné Trucker bordado</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:8px"><div style="border:1px solid #1560ec;outline:2px solid rgba(21,96,236,.25);background:#fff;padding:12px 14px;font:500 13px 'Archivo';color:#201e1d;line-height:1.7;min-height:158px">bordado nas laterais com nome da empresa<br>lado direito: telefone · lado esquerdo: e-mail<br>frente sublimada com logo grande</div><span style="font:500 11.5px 'Archivo';color:#6b6764">Tudo que o designer precisa para criar a arte deste item — posições, textos, cores, técnicas.</span></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Salvar instruções</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/13-produtos/13g.html b/01-painel/13-produtos/13g.html
+index 8039830..a656f75 100644
+--- a/01-painel/13-produtos/13g.html
++++ b/01-painel/13-produtos/13g.html
+@@ -82,7 +82,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:480px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar produto?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"Boné Trucker bordado" sairá da busca de produtos na criação de pedidos. Pedidos e itens em produção <b>não são afetados</b>.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Desativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:480px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar produto?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"Boné Trucker bordado" sairá da busca de produtos na criação de pedidos. Pedidos e itens em produção <b>não são afetados</b>.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Desativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/14-linhas-de-producao/14c.html b/01-painel/14-linhas-de-producao/14c.html
+index 228076e..4f5b522 100644
+--- a/01-painel/14-linhas-de-producao/14c.html
++++ b/01-painel/14-linhas-de-producao/14c.html
+@@ -80,7 +80,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar linha?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">A <b>Linha Expressa</b> não poderá ser usada em novos produtos e pedidos. Itens já em produção <b>não são afetados</b> — os steps deles foram definidos na aprovação.</div><div style="display:flex;align-items:center;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Desativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar linha?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">A <b>Linha Expressa</b> não poderá ser usada em novos produtos e pedidos. Itens já em produção <b>não são afetados</b> — os steps deles foram definidos na aprovação.</div><div style="display:flex;align-items:center;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Desativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/16-motivos-de-retrabalho/20a-modal-2.html b/01-painel/16-motivos-de-retrabalho/20a-modal-2.html
+index 5e8935a..4163bac 100644
+--- a/01-painel/16-motivos-de-retrabalho/20a-modal-2.html
++++ b/01-painel/16-motivos-de-retrabalho/20a-modal-2.html
+@@ -83,7 +83,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar motivo?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"Mancha" some das opções de novos retrabalhos em todos os steps que o usam. Retrabalhos já registrados <b>não são afetados</b> e continuam nos relatórios.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Desativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar motivo?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"Mancha" some das opções de novos retrabalhos em todos os steps que o usam. Retrabalhos já registrados <b>não são afetados</b> e continuam nos relatórios.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Desativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/16-motivos-de-retrabalho/20a-modal.html b/01-painel/16-motivos-de-retrabalho/20a-modal.html
+index f994d0d..a4f3c6f 100644
+--- a/01-painel/16-motivos-de-retrabalho/20a-modal.html
++++ b/01-painel/16-motivos-de-retrabalho/20a-modal.html
+@@ -83,7 +83,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Renomear motivo</div><div style="padding:16px 22px;display:flex;flex-direction:column;gap:12px"><div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em">NOME DO MOTIVO</label><input class="input" value="Mancha" style="width:100%"></div><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Renomear vale em <b>todos os steps</b> que usam este motivo (Bordado, Pintura) e no histórico de retrabalhos.</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Salvar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Renomear motivo</div><div style="padding:16px 22px;display:flex;flex-direction:column;gap:12px"><div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em">NOME DO MOTIVO</label><input class="input" value="Mancha" style="width:100%"></div><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Renomear vale em <b>todos os steps</b> que usam este motivo (Bordado, Pintura) e no histórico de retrabalhos.</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Salvar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/16-motivos-de-retrabalho/20b.html b/01-painel/16-motivos-de-retrabalho/20b.html
+index 888da6f..e343561 100644
+--- a/01-painel/16-motivos-de-retrabalho/20b.html
++++ b/01-painel/16-motivos-de-retrabalho/20b.html
+@@ -84,8 +84,8 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+     </div>
+   </div>
+   <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;gap:24px;padding-top:120px;z-index:6">
+-<div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:440px;box-shadow:0 12px 32px rgba(0,0,0,.28);align-self:flex-start"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Novo motivo</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:6px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">NOME DO MOTIVO *</label><input class="input" placeholder="Ex.: Cor errada" style="width:100%;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25)"><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Informe o nome do motivo</span></div><div style="display:flex;justify-content:flex-end;gap:10px;padding:14px 22px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Criar motivo</button><button class="btn btn-ghost">Cancelar</button></div></div>
+-<div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:440px;box-shadow:0 12px 32px rgba(0,0,0,.28);align-self:flex-start"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Novo motivo</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:6px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">NOME DO MOTIVO *</label><input class="input" value="Cor errada" style="width:100%;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25)"><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Já existe um motivo com este nome</span><span style="font:500 11.5px 'Archivo';color:#6b6764">O catálogo evita motivos duplicados — reutilize "Cor errada" nos steps que precisarem.</span></div><div style="display:flex;justify-content:flex-end;gap:10px;padding:14px 22px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-primary">Criar motivo</button><button class="btn btn-ghost">Cancelar</button></div></div>
++<div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:440px;box-shadow:0 12px 32px rgba(0,0,0,.28);align-self:flex-start"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Novo motivo</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:6px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">NOME DO MOTIVO *</label><input class="input" placeholder="Ex.: Cor errada" style="width:100%;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25)"><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Informe o nome do motivo</span></div><div style="display:flex;justify-content:flex-end;gap:10px;padding:14px 22px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Criar motivo</button></div></div>
++<div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:440px;box-shadow:0 12px 32px rgba(0,0,0,.28);align-self:flex-start"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Novo motivo</div><div style="padding:18px 22px;display:flex;flex-direction:column;gap:6px"><label style="font:600 11px 'Archivo';letter-spacing:.06em;color:#201e1d">NOME DO MOTIVO *</label><input class="input" value="Cor errada" style="width:100%;border-color:oklch(.6 .2 25);outline:1px solid oklch(.6 .2 25)"><span style="font:600 11px 'Archivo';color:oklch(.5 .19 25)">Já existe um motivo com este nome</span><span style="font:500 11.5px 'Archivo';color:#6b6764">O catálogo evita motivos duplicados — reutilize "Cor errada" nos steps que precisarem.</span></div><div style="display:flex;justify-content:flex-end;gap:10px;padding:14px 22px;border-top:1px solid rgba(0,0,0,.12)"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Criar motivo</button></div></div>
+ </div>
+ </div></div>
+ </body>
+diff --git a/01-painel/17-estacoes-e-pareamento/16a-modal-2.html b/01-painel/17-estacoes-e-pareamento/16a-modal-2.html
+index 3e1c2d2..3df12f4 100644
+--- a/01-painel/17-estacoes-e-pareamento/16a-modal-2.html
++++ b/01-painel/17-estacoes-e-pareamento/16a-modal-2.html
+@@ -79,7 +79,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Reativar estação?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6;display:flex;flex-direction:column;gap:10px"><span>A "Mesa Reserva" volta a receber bipes nos steps que cobre.</span><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> A sessão anterior do totem foi invalidada na desativação — será necessário <b>gerar um novo código de pareamento</b> para o totem voltar a operar.</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Reativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Reativar estação?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6;display:flex;flex-direction:column;gap:10px"><span>A "Mesa Reserva" volta a receber bipes nos steps que cobre.</span><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> A sessão anterior do totem foi invalidada na desativação — será necessário <b>gerar um novo código de pareamento</b> para o totem voltar a operar.</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Reativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/17-estacoes-e-pareamento/16a-modal.html b/01-painel/17-estacoes-e-pareamento/16a-modal.html
+index b55e1c0..38056b7 100644
+--- a/01-painel/17-estacoes-e-pareamento/16a-modal.html
++++ b/01-painel/17-estacoes-e-pareamento/16a-modal.html
+@@ -79,7 +79,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar estação?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6;display:flex;flex-direction:column;gap:10px"><span>O totem da "Mesa Bordado" <b>perde o acesso imediatamente</b> — a sessão da estação é invalidada. Bipes e histórico não são afetados.</span><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Steps que ficarão <b>sem estação de bipagem</b>: Bordado (usado em Linha Bonés · Linha Buq)</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Desativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:520px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar estação?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6;display:flex;flex-direction:column;gap:10px"><span>O totem da "Mesa Bordado" <b>perde o acesso imediatamente</b> — a sessão da estação é invalidada. Bipes e histórico não são afetados.</span><div style="background:oklch(.96 .05 85);border:1px solid oklch(.75 .11 80);padding:8px 12px;font:500 12px 'Archivo';color:oklch(.42 .09 70)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;flex:none"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Steps que ficarão <b>sem estação de bipagem</b>: Bordado (usado em Linha Bonés · Linha Buq)</div></div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Desativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/18-usuarios/17a-modal.html b/01-painel/18-usuarios/17a-modal.html
+index 93fd81e..ed7253a 100644
+--- a/01-painel/18-usuarios/17a-modal.html
++++ b/01-painel/18-usuarios/17a-modal.html
+@@ -84,7 +84,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+       </div>
+     </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar usuário?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"João Vendedor" <b>perde o acesso imediatamente</b>. Pedidos, clientes e histórico dele permanecem intactos e visíveis para Administrador e Contador.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Desativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Desativar usuário?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">"João Vendedor" <b>perde o acesso imediatamente</b>. Pedidos, clientes e histórico dele permanecem intactos e visíveis para Administrador e Contador.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Desativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/20-tenants/21a-modal-2.html b/01-painel/20-tenants/21a-modal-2.html
+index 9f2dfc1..050da9c 100644
+--- a/01-painel/20-tenants/21a-modal-2.html
++++ b/01-painel/20-tenants/21a-modal-2.html
+@@ -66,7 +66,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+         <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-top:1px solid rgba(0,0,0,.10);font:600 12px 'Archivo';color:#6b6764"><span>1–4 de 4 · por página: <b style="color:#201e1d">20 ▾</b></span><span style="display:inline-flex;align-items:center;gap:6px"><span style="color:#a5a09b">‹</span><span class="mono" style="display:inline-flex;min-width:26px;height:26px;padding:0 6px;align-items:center;justify-content:center;background:#201e1d;color:#fff;font-weight:700">1</span><span style="color:#a5a09b">›</span></span></div>
+       </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Reativar tenant?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">A "Fábrica Teste" volta a funcionar imediatamente — painel, estações e todos os acessos.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Reativar</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Reativar tenant?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">A "Fábrica Teste" volta a funcionar imediatamente — painel, estações e todos os acessos.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Reativar</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/01-painel/20-tenants/21a-modal.html b/01-painel/20-tenants/21a-modal.html
+index 495a15c..c25577a 100644
+--- a/01-painel/20-tenants/21a-modal.html
++++ b/01-painel/20-tenants/21a-modal.html
+@@ -66,7 +66,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
+         <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-top:1px solid rgba(0,0,0,.10);font:600 12px 'Archivo';color:#6b6764"><span>1–4 de 4 · por página: <b style="color:#201e1d">20 ▾</b></span><span style="display:inline-flex;align-items:center;gap:6px"><span style="color:#a5a09b">‹</span><span class="mono" style="display:inline-flex;min-width:26px;height:26px;padding:0 6px;align-items:center;justify-content:center;background:#201e1d;color:#fff;font-weight:700">1</span><span style="color:#a5a09b">›</span></span></div>
+       </div>
+   </div>
+-  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Suspender tenant?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">Todos os acessos da "Brindes Caicó" são <b>bloqueados imediatamente</b> — painel e estações param de funcionar. Os dados ficam <b>integralmente preservados</b> e a reativação restaura tudo.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-primary">Suspender</button><button class="btn btn-ghost">Cancelar</button></div></div></div>
++  <div style="position:absolute;inset:0;background:rgba(32,30,29,.45);display:flex;align-items:flex-start;justify-content:center;padding-top:140px;z-index:6"><div style="background:#fff;border:1px solid rgba(0,0,0,.2);width:500px;box-shadow:0 12px 32px rgba(0,0,0,.28)"><div style="padding:16px 22px;border-bottom:1px solid rgba(0,0,0,.10);font:700 15px 'Archivo';color:#201e1d">Suspender tenant?</div><div style="padding:16px 22px;font:500 13px 'Archivo';color:#201e1d;line-height:1.6">Todos os acessos da "Brindes Caicó" são <b>bloqueados imediatamente</b> — painel e estações param de funcionar. Os dados ficam <b>integralmente preservados</b> e a reativação restaura tudo.</div><div style="display:flex;gap:10px;padding:0 22px 20px"><button class="btn btn-ghost">Cancelar</button><button class="btn btn-primary">Suspender</button></div></div></div>
+ </div></div>
+ </body>
+ </html>
+\ No newline at end of file
+-- 
+2.43.0
+
