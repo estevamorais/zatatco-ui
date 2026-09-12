@@ -1,0 +1,136 @@
+.trigger {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--shell-space-lg);
+  align-items: center;
+  justify-content: space-between;
+  width: 307px;
+  height: 56px;
+  padding: 6px var(--shell-space-md);
+  font: inherit;
+  cursor: pointer;
+  background: var(--shell-branco);
+  border: 1px solid var(--shell-borda);
+  border-radius: var(--shell-radius-md);
+  transition: border-color 0.2s ease;
+}
+
+.trigger:hover:not(:disabled) {
+  border-color: var(--shell-azul-agilidade);
+}
+
+.trigger:focus-visible {
+  outline: 2px solid var(--shell-azul-agilidade);
+  outline-offset: 2px;
+}
+
+.trigger:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.triggerText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  text-align: left;
+}
+
+.companyName {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--shell-azul-agilidade);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.companyDocument {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--shell-preto);
+}
+
+.arrow {
+  flex-shrink: 0;
+  color: var(--shell-azul-agilidade);
+  transition: transform 0.2s ease;
+}
+
+.arrowOpen {
+  transform: rotate(180deg);
+}
+
+/* ---------- Dropdown ---------- */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.option {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--shell-space-sm);
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--shell-space-md);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  background: var(--shell-branco);
+  border: none;
+  transition: background-color 0.15s ease;
+}
+
+.option + .option {
+  border-top: 1px solid var(--shell-offwhite-2);
+}
+
+.option:hover {
+  background: var(--shell-offwhite);
+}
+
+.option:focus-visible {
+  outline: 2px solid var(--shell-azul-agilidade);
+  outline-offset: -2px;
+}
+
+.optionSelected {
+  background: var(--shell-offwhite-3);
+}
+
+.optionText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.optionName {
+  font-size: 14px;
+  color: var(--shell-preto);
+}
+
+.optionNameSelected {
+  font-weight: 700;
+  color: var(--shell-azul-primario);
+}
+
+.check {
+  flex-shrink: 0;
+  color: var(--shell-azul-agilidade);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trigger,
+  .arrow,
+  .option {
+    transition: none;
+  }
+}

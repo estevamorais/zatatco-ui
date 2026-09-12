@@ -1,0 +1,248 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+}
+
+.panel {
+  position: absolute;
+  top: calc(100% - var(--shell-space-sm));
+  right: var(--shell-space-lg);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  max-height: 480px;
+  overflow: hidden;
+  background: var(--shell-branco);
+  border: 1px solid var(--shell-borda);
+  border-radius: var(--shell-radius-md);
+  box-shadow: var(--shell-shadow-md);
+  animation: panelIn 0.15s ease-out;
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Cabeçalho ---------- */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--shell-space-md) 20px 12px;
+  border-bottom: 1px solid var(--shell-offwhite-2);
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--shell-preto);
+}
+
+.headerActions {
+  display: flex;
+  gap: var(--shell-space-sm);
+  align-items: center;
+}
+
+.markAllButton {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--shell-azul-agilidade);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.markAllButton:hover {
+  text-decoration: underline;
+}
+
+.closeButton {
+  display: flex;
+  padding: var(--shell-space-xs);
+  color: var(--shell-cinza);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: var(--shell-radius-sm);
+}
+
+.closeButton:hover {
+  background: var(--shell-offwhite-2);
+}
+
+.markAllButton:focus-visible,
+.closeButton:focus-visible {
+  outline: 2px solid var(--shell-azul-agilidade);
+  outline-offset: 2px;
+}
+
+/* ---------- Corpo ---------- */
+
+.body {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.empty {
+  padding: 48px 20px;
+  font-size: 14px;
+  color: var(--shell-cinza);
+  text-align: center;
+}
+
+.monthHeading {
+  padding: 14px 20px 6px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--shell-azul-agilidade);
+  background: var(--shell-branco);
+}
+
+/* ---------- Item ---------- */
+
+.item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  width: 100%;
+  padding: 14px 20px 16px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  background: var(--shell-branco);
+  border: none;
+  border-bottom: 1px solid var(--shell-offwhite-2);
+  transition: background-color 0.15s ease;
+}
+
+.item:hover {
+  background: var(--shell-offwhite);
+}
+
+.item:focus-visible {
+  outline: 2px solid var(--shell-azul-agilidade);
+  outline-offset: -2px;
+}
+
+.itemIcon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: var(--shell-azul-agilidade);
+}
+
+.itemText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--shell-preto);
+}
+
+.itemTitleUnread {
+  font-weight: 700;
+}
+
+.itemBody {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--shell-cinza);
+}
+
+.itemFooter {
+  display: flex;
+  gap: var(--shell-space-sm);
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.itemDate {
+  font-size: 12px;
+  color: var(--shell-cinza-claro);
+}
+
+.unreadDot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  background: var(--shell-vermelho);
+  border-radius: 50%;
+}
+
+/* ---------- Menu de ações do item ---------- */
+
+.actionMenu {
+  display: flex;
+  flex-direction: column;
+  padding: var(--shell-space-sm) 0;
+  margin: 0 20px var(--shell-space-sm);
+  background: var(--shell-offwhite);
+  border-radius: var(--shell-radius-md);
+}
+
+.actionItem {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 12px 20px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--shell-preto);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.actionItem:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.actionItem:focus-visible {
+  outline: 2px solid var(--shell-azul-agilidade);
+  outline-offset: -2px;
+}
+
+.actionIconSuccess {
+  flex-shrink: 0;
+  color: var(--shell-verde);
+}
+
+.actionIconDanger {
+  flex-shrink: 0;
+  color: var(--shell-vermelho);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    animation: none;
+  }
+
+  .item {
+    transition: none;
+  }
+}

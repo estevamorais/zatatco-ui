@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + var(--shell-space-sm));
+  z-index: 1000;
+  overflow: hidden;
+  background: var(--shell-branco);
+  border: 1px solid var(--shell-borda);
+  border-radius: var(--shell-radius-md);
+  box-shadow: var(--shell-shadow-md);
+  animation: popoverIn 0.15s ease-out;
+}
+
+.alignStart {
+  left: 0;
+}
+
+.alignEnd {
+  right: 0;
+}
+
+@keyframes popoverIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dropdown {
+    animation: none;
+  }
+}

@@ -1,0 +1,28 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: var(--shell-font-family);
+  background: var(--shell-offwhite);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  /* Faixa reservada para o sidebar colapsado; o expandido sobrepõe. */
+  padding-left: var(--shell-sidebar-width-collapsed);
+}
+
+.headerSlot {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  flex-shrink: 0;
+  height: var(--shell-header-height);
+}
+
+.content {
+  flex: 1;
+  padding: var(--shell-space-lg);
+}
