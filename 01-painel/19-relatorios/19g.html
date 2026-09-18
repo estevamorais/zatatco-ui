@@ -27,7 +27,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
 .dv-card a{text-decoration:none}
 :root{--color-accent:#1560ec;--color-accent-100:oklch(.95 .03 258);--color-accent-200:oklch(.9 .06 258);--color-accent-300:oklch(.82 .1 258);--color-accent-400:oklch(.68 .16 258);--color-accent-500:#1560ec;--color-accent-600:oklch(.5 .19 258);--color-accent-700:#0b3fa1;--color-accent-800:oklch(.32 .13 258);--color-accent-900:oklch(.25 .1 258)}
 .dv-card table.table th{height:40px;padding-top:0;padding-bottom:0;vertical-align:middle;font-size:11px}
-.dv-card table.table td{height:52px;padding-top:0;padding-bottom:0;vertical-align:middle;font-size:14px}
+.dv-card table.table td{height:52px;padding:8px 12px;vertical-align:middle;font-size:14px}
 .dv-card input.input{height:36px;box-sizing:border-box}
 .btn-primary{background:#1560ec;border-color:#1560ec;color:#fff}
 .btn-primary:hover{background:#0d3fa3}
@@ -84,7 +84,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
       </div>
       <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
         <table class="table" style="width:100%">
-          <thead><tr><th>Vendedor</th><th>Tipo</th><th>Pedidos</th><th>Peças</th><th style="text-align:right">Faturamento ↓</th><th style="text-align:right">Ticket médio</th><th>Em atraso</th><th></th></tr></thead>
+          <thead><tr><th>Vendedor</th><th>Tipo</th><th>Pedidos</th><th>Peças</th><th style="text-align:right"><span style="display:inline-flex;align-items:center;gap:4px">Faturamento<span style="color:#1560ec;display:inline-flex"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"/></svg></span></span></th><th style="text-align:right">Ticket médio</th><th>Em atraso</th><th></th></tr></thead>
           <tbody>
             <tr><td><b>João Vendedor</b></td><td><span class="tag tag-outline" style="white-space:nowrap">Externo</span></td><td class="mono">14</td><td class="mono">8.420</td><td class="mono" style="text-align:right">R$ 98.400</td><td class="mono" style="text-align:right">R$ 7.028</td><td class="mono"><b style="color:oklch(.42 .09 70)">2</b></td><td style="text-align:right"><a style="font:600 12px 'Archivo';white-space:nowrap">Ver pedidos →</a></td></tr>
             <tr><td><b>Carlos Lima</b></td><td>Interno</td><td class="mono">11</td><td class="mono">5.100</td><td class="mono" style="text-align:right">R$ 71.200</td><td class="mono" style="text-align:right">R$ 6.472</td><td class="mono">0</td><td style="text-align:right"><a style="font:600 12px 'Archivo';white-space:nowrap">Ver pedidos →</a></td></tr>
