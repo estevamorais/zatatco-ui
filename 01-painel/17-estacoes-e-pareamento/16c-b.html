@@ -32,7 +32,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
 .btn-primary{background:#1560ec;border-color:#1560ec;color:#fff}
 .btn-primary:hover{background:#0d3fa3}
 .btn-primary:active{background:#0b3487}
-.input,textarea.input{border-color:#767170}
+.input,textarea.input{border-color:#726d6c}
 </style>
 </head>
 <body style="padding:24px">
@@ -57,11 +57,11 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
     <div style="flex:1;min-width:0;padding:24px 28px;display:flex;flex-direction:column;gap:18px">
     <div style="font:700 24px 'Archivo';color:#201e1d">Editar estação</div>
       <div style="background:oklch(.95 .05 150);border:1px solid oklch(.6 .12 150);padding:12px 16px;display:flex;align-items:baseline;gap:12px;font:600 13px 'Archivo';color:oklch(.3 .09 150)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;vertical-align:-2px"><path d="M20 6 9 17l-5-5"/></svg> Sessão invalidada.<a style="font:600 13px 'Archivo'" href="#16d-b">Gerar código de pareamento →</a></div>
-    <div style="display:grid;grid-template-columns:65fr 35fr;gap:18px;max-width:1120px;align-items:start">
+    <div style="display:grid;grid-template-columns:minmax(0,7fr) minmax(320px,3fr);gap:20px;align-items:start">
       <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
         <div style="padding:18px 20px;display:flex;flex-direction:column;gap:16px">
           <div style="display:flex;flex-direction:column;gap:6px"><label style="font:600 12px 'Archivo';letter-spacing:.06em">NOME *</label><input class="input" value="Acabamentos" style="width:100%;"></div>
-          <div style="display:flex;flex-direction:column;gap:8px"><label style="font:600 12px 'Archivo';letter-spacing:.06em">MODO DE BIPAGEM *</label><div style="display:flex;flex-direction:column;gap:10px;"><div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:1px solid #767170;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Entrada</span><span style="font:500 11px 'Archivo';color:#6b6764">O operador bipa quando o item chega à estação.</span></div></div><div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:2px solid #1560ec;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"><span style="width:8px;height:8px;background:#1560ec"></span></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Entrada e saída</span><span style="font:500 11px 'Archivo';color:#6b6764">Bipa na chegada e na conclusão — necessário na Embalagem, onde a saída fecha a caixa e despacha o pedido.</span></div></div></div></div>
+          <div style="display:flex;flex-direction:column;gap:8px"><label style="font:600 12px 'Archivo';letter-spacing:.06em">MODO DE BIPAGEM *</label><div style="display:flex;flex-direction:column;gap:10px;"><div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:1px solid #726d6c;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Entrada</span><span style="font:500 11px 'Archivo';color:#6b6764">O operador bipa quando o item chega à estação.</span></div></div><div style="display:flex;gap:10px;align-items:flex-start"><span style="width:16px;height:16px;border:2px solid #1560ec;display:inline-flex;align-items:center;justify-content:center;flex:none;margin-top:2px"><span style="width:8px;height:8px;background:#1560ec"></span></span><div style="display:flex;flex-direction:column;gap:2px"><span style="font:600 13px 'Archivo';color:#201e1d">Entrada e saída</span><span style="font:500 11px 'Archivo';color:#6b6764">Bipa na chegada e na conclusão — necessário na Embalagem, onde a saída fecha a caixa e despacha o pedido.</span></div></div></div></div>
           <div style="display:flex;flex-direction:column;gap:6px">
             <div style="display:flex;align-items:center;justify-content:space-between"><label style="font:600 12px 'Archivo';letter-spacing:.06em">STEPS QUE COBRE</label><span class="mono" style="font-weight:700;font-size:13px;color:#1560ec">1/9</span></div>
             <div style="border:1px solid rgba(0,0,0,.25);background:#fff;padding:2px 14px">
@@ -78,7 +78,7 @@ a{color:var(--color-accent-700,#0b3fa1)}a:hover{color:var(--color-accent,#1560ec
           </div>
         </div>
       </div>
-      <div style="background:#fff;border:1px solid rgba(0,0,0,.12)">
+      <div style="position:sticky;top:24px;background:#fff;border:1px solid rgba(0,0,0,.12)">
         <div style="padding:12px 20px;border-bottom:1px solid rgba(0,0,0,.10);font:700 13px 'Archivo';color:#201e1d">Publicação</div>
         <div style="padding:16px 20px;display:flex;flex-direction:column;gap:8px"><span style="font:600 12px 'Archivo';letter-spacing:.06em">STATUS</span><div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:20px;background:#1560ec;position:relative;flex:none"><div style="width:14px;height:14px;background:#fff;position:absolute;top:3px;right:3px"></div></div><span style="font:600 13px 'Archivo';color:#201e1d">Ativa</span></div><span style="font:500 11px 'Archivo';color:#6b6764">Desativar invalida a sessão do totem imediatamente.</span></div>
         <div style="padding:14px 20px;border-top:1px solid rgba(0,0,0,.12);display:flex;flex-direction:column;gap:8px"><div style="display:flex;justify-content:space-between;gap:12px"><span style="font:500 12px 'Archivo';color:#6b6764;flex:none">Pareamento</span><span class="" style="font:600 12px 'Archivo';color:#767170;text-align:right">sessão invalidada em 21/08/2026</span></div>
